@@ -238,3 +238,67 @@ body {
 .spinner--right [data-type="peru"] .content__left {
   background-image: none;
 }
+/*----------- Estilo del link de la página de n7 en experiencia----------------*/
+.link_n7{
+  color: #EF3724;
+}
+.link_n7:hover {
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+}
+
+/*----------------------- Sección de ventas------------------- */
+/*color de la sección completa de la venta*/
+.background_venta{
+  background-color: rgb(23, 25, 37);
+}
+/*animación, color y posicion del contenedor del logo de la constructora*/
+.clientes{
+	overflow:hidden;
+	margin-top:20px;
+	margin-bottom:10px;
+	height: 200px; 
+	width: 200px; 
+	border-radius:100px;
+	background: radial-gradient(#ffffff, #00a8f3); 
+}
+/*animación y posición del logo de la constructora*/
+.constructora_comercial{
+	transition: all .4s ease;
+	padding: 20px;
+	margin:auto;
+  max-width:100%;
+}
+/*añade la animación al pasar el cursor por arriba del logo de la constructora*/
+.constructora_comercial:hover{
+	transform:scale (1.05);
+	transition: all .4s ease;
+	padding: 15px;
+}
+/*contenedor de la descripción general de la venta*/
+.contenedor_descripcion{
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  /*border: 3px solid rgb(110, 153, 51);*/
+}
+/*tamaño del margen del texto de la descripcion de ventas*/
+.texto_descripcion{
+  margin: 0.90em 0;
+}
+/*color y decoracion del hipervinculo de la constructora comercial*/
+.link_construcom{
+  color: #EF3724;
+}
+.link_construcom:hover {
+  cursor: pointer;
+  text-decoration: none;
+  color: rgb(195, 131, 131);
+}
+/*color de las palabras clave marcadas en el texto de ventas*/
+.color_marcado{
+  color: #ea9a92;
+}
